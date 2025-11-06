@@ -47,6 +47,15 @@
     --shadow-card: 0 2px 8px var(--color-card-shadow);
 }
 
+.overley {
+    background: linear-gradient(rgba(0, 0, 0, 0.888) 100%), url('imagenes/fondo.PNG');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
 /* Body y estructura */
 body {
     font-family: var(--fuente-base);
