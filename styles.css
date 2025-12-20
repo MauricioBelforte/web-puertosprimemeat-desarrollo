@@ -253,6 +253,28 @@ button:hover,
     color: var(--color-primario);
 }
 
+
+.posicion-fixed {
+    position: fixed;
+
+    bottom: 2%;
+    right: 1%;
+    z-index: 1000;
+    background-color: #2cc748;
+    border-radius: 50%;
+    box-shadow: -7px 7px 20px rgba(0, 0, 0, 1.2);
+    /*     border-style: solid;
+    border-color: #000000; */
+}
+
+.posicion-fixed .fixed-icon {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+
+
+}
+
 /* Cards productos y ofertas */
 .seccion-productos {
     background-color: var(--color-primario);
@@ -416,7 +438,7 @@ footer {
     align-items: center;
     justify-content: center;
     padding: 0.5rem;
-    border-radius: 8px;
+    /*  border-radius: 8px; */
     transition: transform 0.3s ease;
 }
 
