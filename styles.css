@@ -600,7 +600,7 @@ footer {
 
 @media(min-width: 500px) {
     .seccion-hero {
-        padding: 5vw var(--espaciado-md) var(--espaciado-lg) var(--espaciado-md);
+        padding: var(--espaciado-md) var(--espaciado-md) var(--espaciado-lg) var(--espaciado-md);
     }
 
     .contenedor-hero h1 {
@@ -655,11 +655,11 @@ footer {
     }
 
     .seccion-hero {
-        padding: var(--espaciado-lg) var(--espaciado-md) var(--espaciado-lg) var(--espaciado-md);
+        padding: var(--espaciado-md) var(--espaciado-md) var(--espaciado-lg) var(--espaciado-md);
     }
 
     .contenedor-hero h1 {
-        font-size: var(--font-size-xxl);
+        font-size: var(--font-size-xl);
         margin-bottom: var(--espaciado-xs);
 
         max-width: 70vw;
@@ -736,6 +736,19 @@ footer {
 }
 
 @media (min-width: 900px) {
+
+    .seccion-hero {
+        padding: var(--espaciado-lg) var(--espaciado-md) var(--espaciado-lg) var(--espaciado-md);
+    }
+
+    .contenedor-hero h1 {
+        font-size: var(--font-size-xxl);
+        margin-bottom: var(--espaciado-xs);
+
+        max-width: 70vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
 
     .contenedor-tarjetas,
     .contenedor-ofertas {
