@@ -142,12 +142,21 @@ h3 {
     bottom: 1vh;
     left: 0;
     width: 100%;
+    transition: all 0.5s ease-out;
+    animation: fadeInPage 1s ease-out;
 }
 
 .texto-adornado h3 {
     font-size: var(--font-size-xxxs);
     color: #b4a6a6c4;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
+
+.texto-adornado.fade-out {
+    opacity: 0;
+    pointer-events: none;
+    /* Evita que el texto invisible interfiera con otros elementos */
 }
 
 
@@ -258,7 +267,7 @@ button:hover,
     position: relative;
     top: 0;
     left: 0;
-    min-height: calc(100vh - 32vh);
+    min-height: calc(100vh - 33vh);
 
 }
 
@@ -784,6 +793,19 @@ footer {
 
     }
 
+}
+
+/* Animación de entrada (Fade In) al cargar la página */
+@keyframes fadeInPage {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 /* Media query de altura: Reduce el logo y fuentes en pantallas con poca altura */
