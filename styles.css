@@ -48,6 +48,9 @@
     --espaciado-md: 2vw;
     --espaciado-lg: 3vw;
     --espaciado-xl: 4vw;
+    --espaciado-xxl: 5vw;
+    --espaciado-xxxl: 6vw;
+
 
     /* Bordes */
     --radio-card: 0.75rem;
@@ -568,7 +571,7 @@ footer {
 
 /* Redes sociales */
 .seccion-redes {
-    padding: 2rem 1rem;
+    padding: var(--espaciado-md) var(--espaciado-lg) var(--espaciado-xxl) var(--espaciado-lg);
     text-align: center;
     background-color: #050504;
 }
@@ -577,7 +580,7 @@ footer {
     display: flex;
     justify-content: center;
     gap: 2rem;
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 .icono-red {
@@ -600,10 +603,15 @@ footer {
 
 .seccion-contacto {
     background-color: #050504;
-
+    padding: var(--espaciado-xxl) var(--espaciado-lg) var(--espaciado-xs) var(--espaciado-lg);
     /*  padding: var(--espaciado-md) var(--espaciado-lg);
     text-align: center;
     color: var(--color-blanco); */
+}
+
+.seccion-contacto p {
+    font-size: var(--font-size-sm);
+    /* margin-bottom: var(--espaciado-sm); */
 }
 
 
