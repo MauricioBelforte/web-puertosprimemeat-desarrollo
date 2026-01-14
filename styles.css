@@ -165,7 +165,7 @@ h3 {
 
 h1 {
     color: var(--color-texto-claro);
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     margin-bottom: var(--espaciado-sm);
 }
 
@@ -275,7 +275,7 @@ button:hover,
 }
 
 .contenedor-hero h1 {
-    font-size: var(--font-size-lg);
+    font-size: var(--font-size-md);
     margin-bottom: var(--espaciado-xs);
 
     max-width: 80vw;
@@ -621,7 +621,7 @@ footer {
     }
 
     .contenedor-hero h1 {
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-lg);
         margin-bottom: var(--espaciado-xs);
 
         max-width: 70vw;
@@ -648,9 +648,7 @@ footer {
 
 /* Desktop */
 @media (min-width: 768px) {
-    h1 {
-        font-size: var(--font-size-xxl);
-    }
+
 
     h2 {
         font-size: var(--font-size-xl);
@@ -828,7 +826,15 @@ footer {
     }
 
     .contenedor-hero h1 {
-        font-size: var(--font-size-xl);
+        font-size: var(--font-size-md);
+    }
+
+    .contenedor-hero h3 {
+        font-size: var(--font-size-xxs);
+    }
+
+    .contenedor-hero p {
+        font-size: var(--font-size-xs);
     }
 
 }
