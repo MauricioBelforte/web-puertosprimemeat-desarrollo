@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Animación de desvanecimiento para el texto adornado al hacer scroll
-    const textoAdornado = document.querySelector('.texto-adornado');
+ /*    const textoAdornado = document.querySelector('.texto-adornado');
     if (textoAdornado) {
         const handleScrollFade = () => {
             // Si el usuario ha hecho un poco de scroll (más de 300px), oculta el texto
@@ -92,5 +92,5 @@ document.addEventListener('DOMContentLoaded', function () {
         };
 
         window.addEventListener('scroll', handleScrollFade);
-    }
+    } */
 });

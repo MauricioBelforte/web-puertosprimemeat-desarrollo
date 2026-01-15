@@ -14,7 +14,7 @@
     /* Bordó profundo */
     --color-secundario: #F8F6F4;
     /* Fondo claro */
-    --color-acento: #7f1f1f;
+    --color-acento: #5a1111;
     /* Rojo intenso */
     --color-negro: #181818;
     /* Negro profundo */
@@ -31,7 +31,7 @@
     /* Fuentes */
     --fuente-base: 'El Messiri', 'Georgia', sans-serif;
     --fuente-secundaria: 'Libre Baskerville', serif;
-    --font-size-xxxs: 0.6rem;
+    --font-size-xxxs: 0.7rem;
     --font-size-xxs: 0.875rem;
     --font-size-xs: 1rem;
     --font-size-sm: 1.25rem;
@@ -142,7 +142,7 @@ h3 {
 .texto-adornado {
     position: absolute;
     padding: 0 5vw 0vw 5vw;
-    bottom: 1vh;
+    bottom: 2vh;
     left: 0;
     width: 100%;
     transition: all 0.5s ease-out;
@@ -151,7 +151,7 @@ h3 {
 
 .texto-adornado h3 {
     font-size: var(--font-size-xxxs);
-    color: #b4a6a6c4;
+    color: #f7f3f3c4;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 
 }
@@ -407,15 +407,18 @@ button:hover,
 
 
 .cta-button {
+    font-family: var(--fuente-base);
+    /* convierte a mayusculas */
+    text-transform: uppercase;
     display: inline-block;
-    background-color: var(--color-acento);
-    color: var(--color-blanco);
+    background-color: #141212;
+    color: var(--color-card);
     padding: 0.75rem 1.5rem;
     border-radius: 0.5rem;
     text-decoration: none;
     font-weight: 600;
     transition: background-color 0.3s;
-    margin-top: 1rem;
+    margin-top: 1vh;
 }
 
 
@@ -688,7 +691,7 @@ footer {
 
     .texto-adornado h3 {
         font-size: var(--font-size-xs);
-        color: #b4a6a6c4;
+
         text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
     }
 
@@ -822,7 +825,7 @@ footer {
     }
 
     .seccion-hero {
-        padding: 2vh var(--espaciado-md) var(--espaciado-lg) var(--espaciado-md);
+        padding: 1vh var(--espaciado-md) var(--espaciado-lg) var(--espaciado-md);
     }
 
     .contenedor-hero h1 {
@@ -830,11 +833,23 @@ footer {
     }
 
     .contenedor-hero h3 {
-        font-size: var(--font-size-xxs);
+        font-size: var(--font-size-xxxs);
     }
 
     .contenedor-hero p {
         font-size: var(--font-size-xs);
+    }
+
+    .cta-button {
+        font-family: var(--fuente-base);
+
+        display: inline-block;
+        padding: 0.50rem 0.75rem;
+
+
+        font-size: var(--font-size-xxs);
+
+        margin-top: 1vh;
     }
 
 }
