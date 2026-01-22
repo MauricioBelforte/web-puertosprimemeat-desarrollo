@@ -80,17 +80,17 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Animación de desvanecimiento para el texto adornado al hacer scroll
- /*    const textoAdornado = document.querySelector('.texto-adornado');
-    if (textoAdornado) {
-        const handleScrollFade = () => {
-            // Si el usuario ha hecho un poco de scroll (más de 300px), oculta el texto
-            if (window.scrollY > 300) {
-                textoAdornado.classList.add('fade-out');
-                // Para optimizar, eliminamos el listener una vez que la clase ha sido añadida
-                window.removeEventListener('scroll', handleScrollFade);
-            }
-        };
-
-        window.addEventListener('scroll', handleScrollFade);
-    } */
+    /*    const textoAdornado = document.querySelector('.texto-adornado');
+       if (textoAdornado) {
+           const handleScrollFade = () => {
+               // Si el usuario ha hecho un poco de scroll (más de 300px), oculta el texto
+               if (window.scrollY > 300) {
+                   textoAdornado.classList.add('fade-out');
+                   // Para optimizar, eliminamos el listener una vez que la clase ha sido añadida
+                   window.removeEventListener('scroll', handleScrollFade);
+               }
+           };
+   
+           window.addEventListener('scroll', handleScrollFade);
+       } */
 });

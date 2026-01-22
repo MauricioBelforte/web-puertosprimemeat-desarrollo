@@ -297,6 +297,13 @@ button:hover,
     margin-right: auto;
 }
 
+.contenedor-hero .cta-button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
 .carrusel-imagenes {
     display: flex;
     align-items: center;
