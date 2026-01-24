@@ -914,4 +914,10 @@ footer {
         margin-top: 1vh;
     }
 
+    .texto-adornado {
+        position: relative;
+        bottom: auto;
+        margin-top: 10vh;
+        padding: 0 1rem;
+    }
 }
